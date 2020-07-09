@@ -47,11 +47,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ElectricField.cs" />
-    <Compile Include="FormChangeCharge.cs" />
+    <Compile Include="FormChangeCharge.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormChangeCharge.Designer.cs">
       <DependentUpon>FormChangeCharge.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormEF_StaticCharge.cs" />
+    <Compile Include="FormEF_StaticCharge.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormEF_StaticCharge.Designer.cs">
       <DependentUpon>FormEF_StaticCharge.cs</DependentUpon>
     </Compile>
